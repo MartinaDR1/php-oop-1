@@ -1,6 +1,6 @@
 <?php
-include __DIR__ . './Models/movies.php';
-include __DIR__ . './Models/genre.php';
+include __DIR__ . './Models/Movies.php';
+include __DIR__ . './Models/Genre.php';
 include __DIR__ . "/db.php";
 
 ?>
