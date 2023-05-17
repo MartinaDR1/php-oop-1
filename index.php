@@ -1,6 +1,6 @@
 <?php
-include __DIR__ . './Models/Movies.php';
-include __DIR__ . './Models/Genre.php';
+include_once __DIR__ . './Models/Movies.php';
+include_once __DIR__ . './Models/Genre.php';
 include __DIR__ . "/db.php";
 
 ?>
@@ -22,7 +22,7 @@ include __DIR__ . "/db.php";
     <h1 class="text-center my-5 fw-light">La tua lista dei film</h1>
 
     <div class="container">
-        <div class="row row-cols-3">
+        <div class="row row-cols-3 row-cols-xs-1">
             <?php foreach ($movies as $movie) {?>
                 <div class="card shadow p-3 mb-2">
                     <img src="<?php echo $movie->image_path ?>">
